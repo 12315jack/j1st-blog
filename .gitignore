@@ -23,6 +23,7 @@ target/
 .gradle/
 build/
 classes/
+out/
 
 # Package Files
 *.jar

@@ -1,0 +1,37 @@
+group 'www.j1stiot.cn'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url "http://maven.oschina.net/content/groups/public/" }
+    maven { url "http://maven.oschina.net/content/repositories/thirdparty/" }
+    maven { url "http://repo.spring.io/libs-release" }
+    mavenCentral()
+}
+
+dependencies {
+
+    //Junit
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    //Spring
+    compile 'org.springframework:spring-context:4.2.5.RELEASE'
+    compile 'org.springframework:spring-jms:4.2.5.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.2.5.RELEASE'
+    compile 'org.springframework:spring-expression:4.2.5.RELEASE'
+    compile 'org.springframework:spring-core:4.2.5.RELEASE'
+    compile 'org.springframework:spring-context-support:4.2.5.RELEASE'
+    compile 'org.springframework:spring-aop:4.2.5.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
+    compile 'org.springframework:spring-web:4.2.5.RELEASE'
+    compile 'org.springframework:spring-aspects:4.2.5.RELEASE'
+    compile 'org.springframework:spring-beans:4.2.5.RELEASE'
+    compile 'org.springframework:spring-orm:4.2.5.RELEASE'
+    compile 'org.springframework:spring-oxm:4.2.5.RELEASE'
+    compile 'org.springframework:spring-tx:4.2.5.RELEASE'
+    compile 'org.springframework:spring-test:4.2.5.RELEASE'
+}
