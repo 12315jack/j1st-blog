@@ -1,4 +1,4 @@
-package www.j1stiot.cn;
+package www.j1stiot.cn.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class HelloController {
-    @RequestMapping("/hello")
+    @RequestMapping("/index")
     public String hello(){
-        return "hello";
+        return "pages/front/index";
     }
 }
