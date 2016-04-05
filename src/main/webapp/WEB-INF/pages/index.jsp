@@ -78,7 +78,7 @@
             <a class="toggleMenu" href="#"><img src="${pageContext.request.contextPath }/resources/images/nav_icon.png" alt=""/> </a>
             <ul class="nav" id="nav">
                 <li class="current"><a href="#home">Home</a></li>
-                <li><a href="../blog/index.html">Blogs</a></li>
+                <li><a href="#home">Blogs</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -110,10 +110,10 @@
             </article>
             <article style="position: relative; width: 100%; opacity: 1;">
                 <div class="slider_text">
-                    <h1>Lorem<span class="head"> dolor!</span></h1>
-                    <h2><span class="green">/tincidu</span> one page template.</h2>
+                    <h1>勤奋<span class="head"> 努力!</span></h1>
+                    <h2><span class="green">/Hardwork</span> No pains no gains.</h2>
                     <div class="m_1"><span class="left_line"> </span>
-                        <p>augue duis dolore te feugait</p><span class="right_line"> </span></div>
+                        <p>一分耕耘,一分收获</p><span class="right_line"> </span></div>
                     <div class="social">
                         <ul>
                             <li class="twitter" title="twitter"><a href="#"><span> </span></a></li>
@@ -126,10 +126,10 @@
             </article>
             <article style="position: absolute; width: 100%; opacity: 0;">
                 <div class="slider_text">
-                    <h1>quod <span class="head">mazim !</span></h1>
-                    <h2><span class="green">/Creative</span> one page template.</h2>
+                    <h1>充满<span class="head">激情!</span></h1>
+                    <h2><span class="green">/Passion</span> Everyone has to live up to the talent can not be.</h2>
                     <div class="m_1"><span class="left_line"> </span>
-                        <p>We are a team of professionals</p><span class="right_line"> </span></div>
+                        <p>每个人都有不可被辜负的天分</p><span class="right_line"> </span></div>
                     <div class="social">
                         <ul>
                             <li class="twitter"><a href="#"><span> </span></a></li>
@@ -157,8 +157,7 @@
     <h3 class="m_2">Works</h3>
     <div class="m_3"><span class="left_line1"> </span><img src="${pageContext.request.contextPath }/resources/images/heart.png" alt=""/><span
             class="right_line1"> </span></div>
-    <p class="m_5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-        laoreet dolore magna<br> aliquam erat volutpat. Ut wisi enim ad minim veniam,.</p>
+    <p class="m_5">每个人都有不可被辜负的天分.</p>
     <!-- container -->
 </div>
 
